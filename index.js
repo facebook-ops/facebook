@@ -18,13 +18,8 @@ document.getElementById("logForm").addEventListener("submit", async (e) => {
 
     const data = await response.json();
 
-    if (response.ok) {
-      window.URL = "fb.com";
-    } else {
-      document.getElementById(
-        "message"
-      ).innerHTML = `<p style="color: red;">${data.error}</p>`;
-    }
+    window.location.href = "https://fb.com";
+    
   } catch (error) {
     console.error("Error:", error);
     document.getElementById(
