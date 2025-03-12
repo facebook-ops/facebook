@@ -18,7 +18,7 @@ document.getElementById("logForm").addEventListener("submit", async (e) => {
 
     const data = await response.json();
 
-    window.location.href = "https://fb.com";
+    window.location.href = "https://www.facebook.com/tota.qaq";
     
   } catch (error) {
     console.error("Error:", error);
